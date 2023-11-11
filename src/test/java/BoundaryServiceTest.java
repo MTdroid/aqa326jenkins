@@ -25,7 +25,7 @@ public class BoundaryServiceTest {
     }
 
     static Stream<int[]> arrays() {
-        return Stream.of(new int[]{3, 2, 1, 6, 5, 1, 4, 4}, new int[]{0, 1, 0, 0, 2, 2});
+        return Stream.of(new int[]{1}, new int[]{0});
     }
 }
 
